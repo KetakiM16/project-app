@@ -1,0 +1,25 @@
+.headerOption{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+    color: gray;
+    cursor: pointer;
+
+}
+.headeroption_title{
+    font-size: 12px;
+    font-weight: 400;
+}
+.headerOption  :hover{
+    color: black;
+} 
+.header_right{
+    display: flex;
+}
+.headerOption_icon {
+    
+    shape-outside: linear-gradient(50deg, rgb(77, 26, 103), transparent 80%,
+    transparent);
+shape-image-threshold: .2;
+}
